@@ -6,5 +6,9 @@ Steps:
 - docker pull postgres:latest
 - docker pull dbpage/pgadmin4:latest
 - docker pull quay.io/keycloak/keycloak:latest
+- git clone https://github.com/vgupta23/keycloak-psql-pgadmin
+- docker-compose up -d
+- pgadmin url:http://localhost:8888/login?next=/
+- keycloak url:http://localhost:8080/
 
 
